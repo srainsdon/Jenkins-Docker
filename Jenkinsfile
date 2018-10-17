@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("nunet/Jenkins-Docker")
+        app = docker.build("nunet/jenkins-docker")
     }
 
     stage('Test image') {
